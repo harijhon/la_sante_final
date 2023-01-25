@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+.header__entete, .header__entete-left, .header__entete-right, .header__entete-right ul, .header__middle, .header__down, .header__text, .modal, .modal .modal__connection, .modal .modal__connection-display ul, .bg-transparent, .panier ul {
+  display: flex;
+}
+
+.header__entete-right ul li a, .header__entete-right .login__popup input[type=submit], .header__entete-right .inscription__popup input[type=submit], .header__middle button, .main__content-card__button button, .modal .modal__connection-display ul li a, .modal .modal__connection-display__login input[type=submit], .modal .modal__connection-display__signup input[type=submit] {
+  font-size: light 12pt;
+  font-weight: bold;
+}
+
+.panier ul {
+  justify-content: space-between;
+  background-color: rgb(246, 245, 245);
+  height: 40px;
+  padding: 25px;
+  box-sizing: border-box;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+.panier ul li a {
+  cursor: pointer;
+  padding: 0.8em 1em;
+  background-color: white;
+  border-radius: 100px;
+  box-shadow: 0px 2px 8px gainsboro;
+  color: black;
+  text-decoration: none;
+}
+.panier ul li a img {
+  width: 2vmin;
+}
+.panier ul label {
+  font-size: 16pt;
+}
+
+.bg-transparent {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s;
+}
+
+.bg-transparent a {
+  cursor: pointer;
+}
+
+.show-popup {
+  visibility: visible;
+  color: black;
+  z-index: 3;
+  opacity: 1;
+}
+
+.bg-popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  box-sizing: border-box;
+  margin-top: 5px;
+  padding: 20px;
+  overflow-y: scroll;
+  width: 40vw;
+  height: 300px;
+}
+
+* {
+  font-family: Sarabun, Inter, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header__entete-right, .header__entete-left {
+  width: clamp(100px, 30%, 300px);
+}
+
+.header__text, .header__nav, .header__down, .header__middle, .header__entete {
+  padding: 0em 2.5em 0em 2.5em;
+}
+
+.header__entete {
+  justify-content: space-between;
+  background-color: #1D2F4C;
+  color: white;
+  height: 5vh;
+  align-items: center;
+}
+.header__entete-left {
+  justify-content: space-between;
+}
+.header__entete-right {
+  justify-content: space-between;
+  justify-content: space-evenly div;
+  justify-content-padding: 20px;
+}
+.header__entete-right #monCompte {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.header__entete-right #close_popup {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.header__entete-right #close_popup img {
+  height: 2vmax;
+}
+.header__entete-right ul {
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.header__entete-right ul li {
+  list-style: none;
+}
+.header__entete-right ul li a {
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  padding: 1em 3em;
+  border-radius: 0.2em;
+  color: white;
+  background-color: #04B382;
+  color: white;
+  text-decoration: none;
+}
+.header__entete-right .login__popup {
+  display: flex;
+  flex-direction: column;
+}
+.header__entete-right .login__popup input {
+  font-size: light 12pt;
+  border: solid 1px rgb(213, 213, 213);
+  box-sizing: border-box;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border-radius: 0.2em;
+  width: 100%;
+}
+.header__entete-right .login__popup input[type=submit] {
+  border: none;
+  box-sizing: border-box;
+  padding: 1em 3em;
+  border-radius: 0.2em;
+  color: white;
+  width: 100%;
+  background-color: #04B382;
+}
+.header__entete-right .inscription__popup {
+  display: none;
+  flex-direction: column;
+}
+.header__entete-right .inscription__popup input {
+  font-size: light 12pt;
+  border: solid 1px rgb(213, 213, 213);
+  box-sizing: border-box;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border-radius: 0.2em;
+  width: 100%;
+}
+.header__entete-right .inscription__popup input[type=submit] {
+  border: none;
+  box-sizing: border-box;
+  padding: 1em 3em;
+  border-radius: 0.2em;
+  color: white;
+  width: 100%;
+  background-color: #04B382;
+}
+.header__middle {
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+.header__middle-panier {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.header__middle-panier button {
+  cursor: pointer;
+  margin: right;
+}
+.header__middle-panier__shopList {
+  display: flex;
+  flex-direction: column;
+}
+.header__middle button {
+  border: none;
+  box-sizing: border-box;
+  padding: 1em 3em;
+  border-radius: 0.2em;
+  color: white;
+  background-color: #04B382;
+}
+.header__middle input {
+  font-size: light 12pt;
+  border: solid 1px rgb(213, 213, 213);
+  box-sizing: border-box;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border-radius: 0.2em;
+}
+.header__down {
+  justify-content: center;
+}
+.header__down div {
+  display: inline-block;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+.header__down div:hover {
+  background-color: #04B382;
+  transition: ease-in-out 300ms;
+}
+.header__label {
+  background-color: #04B382;
+  font-size: light 12pt;
+  text-align: center;
+}
+.header__nav {
+  background-color: #0384C7;
+  font-size: light 12pt;
+  color: white;
+}
+.header__text {
+  justify-content: space-evenly;
+  padding: 2em;
+  background-color: #F6F2F1;
+}
+.header__text div {
+  margin: 0 5em 0 5em;
+}
+
+.main #left {
+  background-color: gainsboro;
+  display: block;
+  float: left;
+  width: 20%;
+}
+.main #right {
+  margin-left: 20%;
+  padding: 0px 20px 0px 20px;
+}
+.main__content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fit, 15em);
+  gap: 20px;
+}
+.main__content-card {
+  box-shadow: -2px 2px 10px rgb(191, 191, 191);
+  display: flex;
+  flex-direction: column;
+}
+.main__content-card__image {
+  transition: 300ms ease-in-out;
+}
+.main__content-card__image:hover {
+  filter: blur(2px);
+}
+.main__content-card img {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+.main__content-card__info {
+  background-color: gainsboro;
+  width: 100%;
+  height: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+  align-items: center;
+}
+.main__content-card__button button {
+  border: none;
+  box-sizing: border-box;
+  padding: 1em 3em;
+  border-radius: 0.2em;
+  color: white;
+  background-color: #04B382;
+  border-radius: 0;
+  text-align: right;
+  width: 100%;
+}
+
+.modal {
+  width: 100VW;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.modal .modal__connection {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 50vh;
+}
+.modal .modal__connection-display {
+  box-shadow: -2px 5px 10px gainsboro;
+  height: 500px;
+  width: 25vw;
+  overflow-y: scroll;
+  padding: 2em;
+}
+.modal .modal__connection-display ul {
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.modal .modal__connection-display ul li {
+  list-style: none;
+}
+.modal .modal__connection-display ul li a {
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  padding: 1em 3em;
+  border-radius: 0.2em;
+  color: white;
+  background-color: #04B382;
+  color: white;
+  text-decoration: none;
+}
+.modal .modal__connection-display__login {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+}
+.modal .modal__connection-display__login input {
+  font-size: light 12pt;
+  border: solid 1px rgb(213, 213, 213);
+  box-sizing: border-box;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border-radius: 0.2em;
+  width: 100%;
+}
+.modal .modal__connection-display__login input[type=submit] {
+  border: none;
+  box-sizing: border-box;
+  padding: 1em 3em;
+  border-radius: 0.2em;
+  color: white;
+  background-color: #04B382;
+}
+.modal .modal__connection-display__signup {
+  display: none;
+  flex-direction: column;
+}
+.modal .modal__connection-display__signup input {
+  font-size: light 12pt;
+  border: solid 1px rgb(213, 213, 213);
+  box-sizing: border-box;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border-radius: 0.2em;
+  width: 100%;
+}
+.modal .modal__connection-display__signup input[type=submit] {
+  border: none;
+  box-sizing: border-box;
+  padding: 1em 3em;
+  border-radius: 0.2em;
+  color: white;
+  background-color: #04B382;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/index.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header__entete">
+                <div class="header__entete-left">
+                    <div>Connectez-vous</div>
+                    <div>Qui somme-nous</div>
+                </div>
+                <div class="header__entete-right">
+                    <div>Marque</div>
+                    <div>Conseil</div>
+                    <a href="#" id="monCompte">Mon compte</a>
+                    <div id="popup" class="bg-transparent">
+                        <div class="bg-popup">
+
+                            <a id="close_popup" href="#"><img src="img/sans bg/remove.png" alt="" srcset=""></a>
+                            <br>
+                            <ul>
+                                <li><a href="#" id="login__nosMedicament">connectez-vous</a></li>
+                                <li><a href="#" id="signUp__nosMedicament">inscription</a></li>
+                            </ul>
+                            <br>    
+                            <div class="login__popup">
+                                <form action="login.jsp">
+                                    <input type="text" name="mail" placeholder="address here">
+                                    <br><br>
+                                    <input type="text" name="mdp" placeholder="password here">
+                                    <br><br>
+                                    <input type="submit" value="login">
+                                </form>
+                            </div>
+                            <br><br><br>
+                            <div class="inscription__popup">
+                                <form action="inscription.jsp">
+                                    <input type="text" name="nom" placeholder="name here">
+                                    <br><br>
+                                    <input type="text" name="prenom" placeholder="first name here">
+                                    <br><br>
+                                    <input type="date" name="dateNaissance" placeholder="date of birth here">
+                                    <br><br>
+                                    <label for="genre"><strong>gender</strong></label>
+                                    <br>
+                                    <label for="male">Mme</label><input type="radio" name="genre" value="1">
+                                    <label for="female">Mr</label><input type="radio" name="genre" value="2">
+                                    <br><br>
+                                    <input type="text" name="mail" placeholder="address here">
+                                    <br><br>
+                                    <input type="password" name="motDePasse" placeholder="password here">
+                                    <br><br>
+                                    <input type="hidden" name="etat" value="1">
+                                    <br><br>
+                                    <input type="submit" value="sign up">
+                                </form>
+                            </div>
+                            <!-- <button >boutton</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__middle">
+                <div>
+                    <strong>LaSante</strong>
+                </div>
+                <div>
+                    <p>
+                        <strong class="bleu">Pharmacie en ligne française</strong>
+                    </p>
+                    <p class="gris">agrée par le Ministère de la Santé</p>
+                </div>
+                <div>
+                    <input type="search" placeholder="Doliprane, migraine... ">
+                </div>
+                <div class="header__middle-panier">
+                    <button>Mon panier</button>
+                    <!-- <div class="header__middle-panier__shopList">
+                        <a href="">heare is shopping list</a>
+                        <a href="">heare is shopping list</a>
+                        <a href="">heare is shopping list</a>
+                    </div> -->
+
+                </div>
+            </div>
+            <div class="header__down">
+                <div>
+                    <p>Médicament</p>
+                </div>
+                <div>
+                    <p>Parapharmacie</p>
+                </div>
+                <div>
+                    <p>
+                        Bien-être <br>
+                        Nutrition
+
+                    </p>
+                </div>
+                <div>
+                    <p>Beauté</p>
+                    <p>Soins</p>
+                </div>
+                <div>
+                    <p>Hygiène</p>
+                    <p>Premier soins</p>
+                </div>
+                <div>
+                    <p>Bébé</p>
+                    <p>Maman</p>
+                </div>
+                <div>
+                    <p>Matériel medical</p>
+                </div>
+                <div>
+                    <p>Vétérinaire</p>
+                </div>
+                <div>
+                    <p class="promo">Promotion</p>
+                </div>
+            </div>
+        </div>
+        <div class="header__label">
+            <p>Livraison en 24/48h, oerte dès 59€ d'achat</p>
+        </div>
+        <div class="header__nav">
+            pharmacie en ligne > Medicament
+        </div>
+        <div class="header__text">
+            <div>
+                <h2>Médicament</h2>
+                <p>5746 produit</p>
+            </div>
+            <div>
+                <p>Les petits maux du quotidien peuvent souvent être soignés avec des médicaments sans ordonnance.
+                    Cependant, l’automédication ne doit pas être prise à la légère : elle doit se limiter à quelques jours, pour
+                    soigner des symptômes bénins et courants, sans intervention du médecin, mais avec l’aide du pharmacien.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main__content" id="left">
+            <p>
+                <strong>Categorie</strong>
+            </p>
+            <p>Par symptôme</p>
+
+        </div>
+        <div class="main__content" id="right">
+
+            <div class="main__content-card">
+                <div class="main__content-card__image">
+                    <img src="img/sans bg/doliprane1000mg.png" alt="">
+                </div>
+                <div class="main__content-card__info">
+                    <p><strong>Nom Médicament</strong></p>
+                    <p class="nb">Existe en plusieurs modèle</p>
+                </div>
+                <div class="main__content-card__button">
+                    <button>price</button>
+                </div>
+            </div>
+            <div class="main__content-card">
+                <div class="main__content-card__image">
+                    <img src="img/sans bg/efferalgan500mg.png" alt="">
+                </div>
+                <div class="main__content-card__info">
+                    <p><strong>Nom Médicament</strong></p>
+                    <p class="nb">Existe en plusieurs modèle</p>
+                </div>
+                <div class="main__content-card__button">
+                    <button>price</button>
+                </div>
+            </div>
+            <div class="main__content-card">
+                <div class="main__content-card__image">
+                    <img src="img/sans bg/UvimagB6.png" alt="">
+                </div>
+                <div class="main__content-card__info">
+                    <p><strong>Nom Médicament</strong></p>
+                    <p class="nb">Existe en plusieurs modèle</p>
+                </div>
+                <div class="main__content-card__button">
+                    <button>price</button>
+                </div>
+            </div>
+            <div class="main__content-card">
+                <div class="main__content-card__image">
+                    <img src="img/sans bg/UvimagB6.png" alt="">
+                </div>
+                <div class="main__content-card__info">
+                    <p><strong>Nom Médicament</strong></p>
+                    <p class="nb">Existe en plusieurs modèle</p>
+                </div>
+                <div class="main__content-card__button">
+                    <button>price</button>
+                </div>
+            </div>
+            <div class="main__content-card">
+                <div class="main__content-card__image">
+                    <img src="img/sans bg/UvimagB6.png" alt="">
+                </div>
+                <div class="main__content-card__info">
+                    <p><strong>Nom Médicament</strong></p>
+                    <p class="nb">Existe en plusieurs modèle</p>
+                </div>
+                <div class="main__content-card__button">
+                    <button>price</button>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="color3">
+            <a href="connect.html">login</a>
+        </div>
+    </div>
+    <!-- <div>Icônes conçues par 
+        <a href="https://www.flaticon.com/fr/auteurs/verry-purnomo" title="verry purnomo">verry purnomo</a> from 
+        <a href="https://www.flaticon.com/fr/" title="Flaticon">www.flaticon.com</a>
+    </div> -->
+    <script src="js/nosMedicament.js"></script>
+</body>
+</html>

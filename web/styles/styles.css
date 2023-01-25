@@ -1,0 +1,433 @@
+.srch_bar{
+    margin-left: 550px !important;
+    margin-top: -60px;
+    
+}
+
+.panier{
+    width: 250px !important;
+    height: 47px !important;
+    margin-left: 30px !important;
+    margin-right: O !important;
+}
+
+#shop_cart{
+    margin-right: 5px !important;
+}
+#srch_button{
+    width: 15px !important;
+    height: 15px !important;
+    margin: 5px !important;
+}
+
+
+
+.third_navbar{
+    justify-content: center !important;
+}
+
+.promo{
+    color: red !important;
+    font-weight: bold !important;
+}
+.promo:hover{
+    background-color: red !important;
+    color: white !important;
+}
+
+.img-fluid{
+    width: 150px !important;
+    height: 150px !important;
+    align-content: center;
+}
+.nav-link{
+    text-align:  center !important;
+    
+}
+.nav-link:hover{
+    background-color: #00498f !important;
+    color:white !important;
+}
+
+.livraison{
+    height: 40px !important;
+}
+
+#delivery{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.row img{
+    margin-top: 40px !important;
+    margin-right: 40px !important;
+    scale: 80% !important;
+}
+
+h4{
+    font-weight: bold !important;
+}
+
+.cards-deck{
+    display: flex !important;
+}
+.cards-wrapper{
+    display: flex !important;
+    justify-content: center;
+}
+
+.card-subtitle{
+    padding: 15px;
+    background-color: #F3F3F3;
+}
+
+.card-footer{
+    background-color: #ed145b;
+}
+
+.res_medoc .card-footer{
+    background-color: #00B583;
+}
+
+.res_medoc .card-body{
+    background-color: #F3F3F3;
+}
+
+.card-footer p{
+    color: white;
+    text-align: right;
+    
+}
+#old_price{
+    text-decoration: line-through;
+    text-align: left;
+}
+
+.card-body{
+    background-color: #fbd0de ;
+}
+
+.card{
+    margin: 0 .5em;
+    border: none;
+    width: 175px;
+}
+
+.image-wrapper{
+    height:17vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#carouseloffreControls{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#carouselconseilControls .card-body{
+    background-color: #F3F3F3;
+}
+
+#carouselconseilControls .card-footer{
+    background-color: #00B583;
+}
+
+#modele_conseil{
+    font-weight: bold;
+}.card-footer #commande{
+    background-color: #84898F !important;
+}
+
+#carouselconseilControls{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.rech{
+    width: 40px;
+    height: 40px;
+}
+
+.search_result{
+    background-color: #84898F;
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    
+}
+
+#filter_search{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#filter_search .aff_2{
+    margin-left: 30px;
+}
+
+.medoc_content{
+    margin-top: 25px;
+}
+
+.pagination{
+    margin-top: 30px !important;
+    list-style-type: none !important;
+    border: none !important;
+}
+
+#conseils ul li a{
+    text-decoration: none!important;
+    color: #333f4b!important;
+}
+
+#avantages{
+    margin-top: 50px!important;
+    margin-left: 150px!important;
+}
+
+#avantages .avgauche{
+    background-color: #1d2f4c;
+    width: 336px;
+    height: 240px;
+    justify-items: center;
+    align-items: center;
+}
+
+#avantages .avdroite{
+    background-color: #00498f;
+    width: 260px;
+    height: 120px;
+    
+}
+
+#avantages .avdroite p{
+    color: #fff;
+    text-align: center;
+    padding-top: 0!important;
+    padding-bottom: 20px!important;
+    
+    
+}
+
+
+#avantages .avgauche p{
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.imgavantage{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#newsletter{
+    margin-top: 50px!important;
+    margin-left: 150px!important;
+}
+
+#newsletter form input{
+    border-radius: 0.5em;
+}
+
+#newsletter li{
+    text-decoration: none!important;
+    list-style: none;
+    margin-top: 0;
+    text-align: right;
+    
+}
+
+.news{
+    margin-top: 25px;
+}
+
+.aligned {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.aligned span {
+    margin-top: 40px;
+}
+
+.newsform{
+    margin-top: 30px;
+}
+
+#footer_nav a{
+    text-decoration: none;
+    color: #333f4b;
+    
+}
+
+#footer_nav :not(.nav-link):hover{
+    background-color: none!important;
+}
+
+
+.srch_bar{
+    margin-left: 550px !important;
+    margin-top: -60px;
+    
+}
+
+.panier{
+    width: 250px !important;
+    height: 47px !important;
+    margin-left: 30px !important;
+    margin-right: O !important;
+}
+
+#shop_cart{
+    margin-right: 5px !important;
+}
+#srch_button{
+    width: 15px !important;
+    height: 15px !important;
+    margin: 5px !important;
+}
+
+.third_navbar{
+    justify-content: center !important;
+    font-size:  14px;
+}
+
+.promo{
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold !important;
+}
+.promo:hover{
+    background-color: red !important;
+    color: white !important;
+}
+
+.img-fluid{
+    width: 150px !important;
+    height: 150px !important;
+    align-content: center;
+}
+.nav-link{
+    text-align:  center !important;
+    
+}
+.nav-link:hover{
+    background-color: #00498f !important;
+    color:white !important;
+}
+
+.livraison{
+    height: 40px !important;
+}
+
+#delivery{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.row img{
+    margin-top: 40px !important;
+    margin-right: 40px !important;
+    scale: 80% !important;
+}
+
+h4{
+    font-weight: bold !important;
+}
+
+.cards-wrapper{
+    display: flex !important;
+    justify-content: center;
+}
+.card-footer{
+    background-color: #ed145b;
+}
+
+.card-footer p{
+    color: white;
+    text-align: right;
+    
+}
+#old_price{
+    text-decoration: line-through;
+    text-align: left;
+}
+
+.card-body{
+    background-color: #fbd0de ;
+}
+
+.card{
+    margin: 0 .5em;
+    border: none;
+    width: 175px;
+}
+
+.image-wrapper{
+    height:17vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#carouseloffreControls{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#carouselconseilControls .card-body{
+    background-color: #F3F3F3;
+}
+
+#carouselconseilControls .card-footer{
+    background-color: #00B583;
+}
+
+#modele_conseil{
+    font-weight: bold;
+}.card-footer #commande{
+    background-color: #84898F !important;
+}
+
+#carouselconseilControls{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.nav-item{
+    font-size: 13px;
+}
+
+.exeption{
+    background-color: rgb(218, 66, 124);
+    width: 110px;
+    height: 45px;
+}
+
+.seGcontainer{
+    margin-left: 20px;
+    margin-top: -60px;
+    width: 40px;
+}
+
+.cardF{
+    background-color: #00B583;
+}
