@@ -163,7 +163,7 @@
                 for (Produit produit : dataProduit) { %>
                     <div class="card">
                         <div class="image-wrapper">
-                            <img src="img/offres/alvadiem.png" class="card-img-top" alt="...">
+                            <img src="<%=produit.getMedicament().getLien_img() %>" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body" style="background-color: #ffffff;">
                             <p class="card-text"><%=produit.getMedicament().getNomMedicament() %><br> <span id="modele_conseil"><%out.println(produit.getMedicament().getForme().getTypeForme() + " ") ;%></span></p>
