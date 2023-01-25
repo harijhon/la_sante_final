@@ -20,13 +20,13 @@ create table forme(
     foreign key (id_admin) references administration(id_admin)
 );
 
--- tsy mbola atao
+-- efa azo atao
 create table maladie(
     id_maladie serial primary key,
     nom_maladie varchar(50)
 );
 
--- tsy mbola atao
+-- efa azo atao
 create table symptome(
     id_symptome serial primary key,
     nom_symptome varchar(50)
@@ -57,7 +57,7 @@ create table medicament(
     foreign key(id_age) references ageConsommateur
 );
 
--- tsy mbola atao
+-- efa azo atao
 create table maladie_medicament(
     id_maladie int,
     id_medicament int,
@@ -65,7 +65,7 @@ create table maladie_medicament(
     foreign key (id_medicament) references medicament (id_medicament)
 );
 
--- tsy mbola atao
+-- efa azo atao
 create table symptome_medicament(
     id_symptome int,
     id_medicament int,
@@ -73,7 +73,7 @@ create table symptome_medicament(
     foreign key (id_medicament) references medicament(id_medicament)
 );
 
--- tsy mbola atao
+-- efa azo atao
 create table symptome_maladie(
     id_maladie int,
     id_symptome int,

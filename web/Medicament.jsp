@@ -202,17 +202,58 @@
                   <p class="card-text"> <span>à partir de</span> 7,99€ </p>
               </div>
           </div>
+          <!-- test -->
+      </div>
+                 
+      <!-- test-->
+      <div class="cards-wrapper" style="width: 1000px; float: right; margin-top: 20px; margin-right: 50px; position: relative;">
           <div class="card">
               <div class="image-wrapper">
-                  <img src="img/offres/pediakid.png" class="card-img-top" alt="...">
+                  <img src="img/offres/alvadiem.png" class="card-img-top" alt="...">
               </div>
               <div class="card-body" style="background-color: #ffffff;">
-                  <p class="card-text">Pediakid Nez -...<br> <span id="modele_conseil">Sirop 250 ml</span></p>
+                  <p class="card-text">Alvadiem Apivit...<br> <span id="modele_conseil">Baume 50ml</span></p>
               </div>
               <div class="card-footer" id="commande" style="background-color: #00B482;">
-                  <p class="card-text"> <Span>En commande!</Span> 14,90€ </p>
+                  <p class="card-text"> 8,51€ </p>
               </div>
           </div>
+
+
+          <div class="card">
+              <div class="image-wrapper">
+                  <img src="img/offres/magnesium.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background-color: #ffffff;">
+                  <p class="card-text">NHCO Magnésium...<br> <span id="modele_conseil">Gélules x 84</span></p>
+              </div>
+              <div class="card-footer" id="commande" style="background-color: #00B482;">
+                  <p class="card-text"> 18,10€ </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="image-wrapper">
+                  <img src="img/offres/grintuss.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background-color: #ffffff;">
+                  <p class="card-text">Aboca GrinTuss...<br> <span id="modele_conseil">Existe en plusieurs modèles</span></p>
+              </div>
+              <div class="card-footer" id="commande" style="background-color: #00B482;">
+                  <p class="card-text"> <span>à partir de </span> 8,90€ </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="image-wrapper">
+                  <img src="img/offres/alvadiem.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body" style="background-color: #ffffff;">
+                  <p class="card-text">Pediakid Immuno...<br> <span id="modele_conseil">Existe en plusieurs modèles</span></p>
+              </div>
+              <div class="card-footer" id="commande" style="background-color: #00B482;">
+                  <p class="card-text"> <span>à partir de</span> 7,99€ </p>
+              </div>
+          </div>
+          <!-- test -->
       </div>
 
       <!-- accordion -->
