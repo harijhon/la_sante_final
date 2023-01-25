@@ -111,7 +111,7 @@ public class Produit {
     }
 
     // select all produit
-    public Produit[] selectProduit() throws Exception {
+    public static Produit[] selectProduit() throws Exception {
         Connection connect = null;
         Statement stmt = null;
         String sql = "select * from product_data";
